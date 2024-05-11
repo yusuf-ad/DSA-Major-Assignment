@@ -10,7 +10,7 @@ git clone https://github.com/yusuf-ad/DSA-Major-Assigment.git
 
 ### To execute any of the given problems, follow these commands:
 
-- For the **_1 problem_**  
+- For the **_1st problem_**  
   g++ -o 01-problem 01-problem.cpp  
   ./01-problem
 
