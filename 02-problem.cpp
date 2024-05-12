@@ -29,13 +29,13 @@ int main() {
     vector<tuple<int, int, int>> jobs = {make_tuple(1,4,20), make_tuple(2,1,10), make_tuple(3,1,40), make_tuple(4,1,30)};
     int n = jobs.size();
     vector<int> result = JobScheduling(n, jobs);
-    cout << "Example 1 output: " << result[0] << " " << result[1] << endl;  // This will output: 2 60
+    cout << "Example 1 output: " << result[0] << " " << result[1] << endl;  
     
     cout << endl;
     
     vector<tuple<int, int, int>> jobs2 = {make_tuple(1,2,100), make_tuple(2,1,19), make_tuple(3,2,27), make_tuple(4,1,25), make_tuple(5,1,15)};
     int m = jobs2.size();
     vector<int> result2 = JobScheduling(m, jobs2);
-    cout << "Example 2 output: " << result2[0] << " " << result2[1] << endl;  // This will output: 2 127
+    cout << "Example 2 output: " << result2[0] << " " << result2[1] << endl;  
     return 0;
 }

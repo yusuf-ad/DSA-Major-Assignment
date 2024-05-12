@@ -29,13 +29,13 @@ int maxChainLen(Pair arr[], int n) {
 int main() {
     Pair arr[] = {{5,24}, {39,60}, {15,28}, {27,40}, {50,90}};
     int n = sizeof(arr)/sizeof(arr[0]);
-    cout << "Example 1 output: " << maxChainLen(arr, n) << endl;  // This will output: 3
+    cout << "Example 1 output: " << maxChainLen(arr, n) << endl;  
     
     cout << endl;
     
     Pair arr2[] = {{5,10}, {1,11}};
     int m = sizeof(arr2)/sizeof(arr2[0]);
-    cout << "Example 2 output: " << maxChainLen(arr2, m) << endl;  // This will output: 1
+    cout << "Example 2 output: " << maxChainLen(arr2, m) << endl;  
 	
 	return 0;
 }

@@ -40,14 +40,14 @@ int main() {
     bool graph1[101][101] = {{0, 1, 1, 1}, {1, 0, 1, 0}, {1, 1, 0, 1}, {1, 0, 1, 0}};
     int m1 = 3;
     int V1 = 4;
-    cout << "Example 1 output: " << graphColoring(graph1, m1, V1) << endl;  // This will output: 1
+    cout << "Example 1 output: " << graphColoring(graph1, m1, V1) << endl;  
 
 	cout << endl;
 
     bool graph2[101][101] = {{0, 1, 1}, {1, 0, 1}, {1, 1, 0}};
     int m2 = 2;
     int V2 = 3;
-    cout << "Example 2 output: " << graphColoring(graph2, m2, V2) << endl;  // This will output: 0
-
+    cout << "Example 2 output: " << graphColoring(graph2, m2, V2) << endl; 
+    
     return 0;
 }

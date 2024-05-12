@@ -24,7 +24,7 @@ int main() {
     int start[] = {1, 3, 0, 5, 8, 5};
     int end[] = {2, 4, 6, 7, 9, 9};
     int n = sizeof(start) / sizeof(start[0]);
-    cout << "Example 1 output: " << maxMeetings(start, end, n) << endl;
+    cout << "Example 1 output: " << maxMeetings(start, end, n) << endl; 
     
     cout << endl;
     
